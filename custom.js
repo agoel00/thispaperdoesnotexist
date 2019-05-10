@@ -482,7 +482,7 @@ var abstracts = [
 // var heading = document.querySelector('#title');
 // heading.innerHTML = titles[Math.floor(Math.random()*10)];
 // heading.innerHTML = abstracts[0];
-console.log(titles[Math.floor(Math.random()*10)]);
+// console.log(titles[Math.floor(Math.random()*10)]);
 // console.log(Math.floor(Math.random()*10))
 
 let btn = document.querySelector('#btn');
@@ -495,7 +495,14 @@ abs.innerHTML = abstracts[num]
 
 function refresh()
 {
-    let num = Math.floor(Math.random()*10);
+    let num = Math.floor(Math.random()*titles.length);
+    console.log(num);
     heading.innerHTML = titles[num]
     abs.innerHTML = abstracts[num]
 }
+
+tjson = {...titles}
+ajson = {...abstracts}
+
+console.log(tjson)
+console.log(ajson)
