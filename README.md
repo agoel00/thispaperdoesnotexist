@@ -36,7 +36,7 @@ the tasks of the epileptic person.
 - [x] Deploy on website as POC
 - [ ] Train on more papers
 - [ ] Upload fine-tuned weights
-
+- [ ] A more efficient way to store and display generated samples
 
 ### Note
 This is just for fun. I have no intention of causing harm or infringing on anyone's copyright. 
