@@ -71,8 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-  .button {
+  /* .button {
 	background: #3498db;
 	width: 180px;
 	padding: 4px 0;
@@ -82,18 +81,17 @@ input, select, textarea {
 	-webkit-transform: translateX(-50%) translateY(-50%);
 			transform: translateX(-50%) translateY(-50%);
 	border-radius: 3px;
-  }
+  } */
   .button p {
 	font-family: 'Roboto';
 	text-align: center;
-	text-transform: uppercase;
 	color: #FFF;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 		-ms-user-select: none;
 			user-select: none;
   }
-  .button:hover {
+  /* .button:hover {
 	cursor: pointer;
   }
   .button:after {
@@ -106,7 +104,7 @@ input, select, textarea {
 	background-color: #927608;
 	opacity: 0.4;
 	bottom: -30px;
-  }
+  } */
   
   
 /* Basic */
@@ -152,7 +150,7 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
+		a:hover{
 			border-bottom-color: transparent;
 			color: #4acaa8 !important;
 		}
@@ -2816,6 +2814,7 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
+						
 					}
 
 						#header > nav ul li a.active {
